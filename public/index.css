@@ -1,15 +1,42 @@
 div.card{
    border-radius: 10px;
-   background-color: beige;
+   background-color: #fff5d7;
    box-shadow: #aaa;
    height: 200px;
    width: 400px;
    position: relative; 
    padding: 15px;
+   margin: 10px;
 }
 
 .logoimg {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+.currentstatus {
+    border-radius: 10px;
+    background-color:#ff5e6c;
+    width: 100px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -95px;
+    left: 300px;
+}
+
+.livecmd{
+    border-radius: 10px;
+    background-color:#ff5e6c;
+    width: 200px;
+    height: 190px;
+    color: black;
+    text-align: center;
+    position:relative;
+    top: -80px;
+    left: 200px;
 }

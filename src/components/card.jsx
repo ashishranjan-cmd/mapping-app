@@ -1,0 +1,31 @@
+function MyDocker(props){
+    return (
+    <div>
+      <div className="card">
+
+        <div className="top">
+          <div className="l">
+            <img className="logoimg" src="data:image/png;base64,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" />
+          </div>
+          <div className="buttoncontrols">
+            <button>Start</button>
+            <button>Stop</button>
+          </div>
+          <div className="currentstatus">
+            {props.status}
+          </div>
+        </div>
+
+        <div className="bottom">
+          <div className="livecmd">
+            {props.terminal}
+          </div>
+          <div className="runscript"></div>
+        </div>
+
+      </div>
+    </div>
+    )
+}
+
+export {MyDocker}
