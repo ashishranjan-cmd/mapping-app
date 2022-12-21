@@ -1,0 +1,15 @@
+div.card{
+   border-radius: 10px;
+   background-color: beige;
+   box-shadow: #aaa;
+   height: 200px;
+   width: 400px;
+   position: relative; 
+   padding: 15px;
+}
+
+.logoimg {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
