@@ -20,9 +20,9 @@ div.card{
 
 .currentstatus {
     border-radius: 10px;
-    background-color:#ff5e6c;
+    background-color:#2d545e;
     width: 100px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     position: relative;
     top: -95px;
@@ -31,10 +31,10 @@ div.card{
 
 .livecmd{
     border-radius: 10px;
-    background-color:#ff5e6c;
+    background-color:#2d545e;
     width: 200px;
     height: 190px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     position:relative;
     top: -80px;
