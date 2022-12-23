@@ -4,9 +4,22 @@ import './index.css';
 import { MyDocker } from './components/card';
 import mydata from './App';
 
+function datafunc(data){
+  return(
+    <MyDocker 
+        status={data.status}
+        terminal={data.terminal}
+        logoimg={data.logoimg}
+    />
+  )
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
+    <h1>Container Manager</h1>
+    {mydata.map(datafunc)}
+    {/*
     <MyDocker 
         status={mydata[0].status}
         terminal={mydata[0].terminal}
@@ -22,6 +35,6 @@ root.render(
         terminal={mydata[2].terminal}
         logoimg={mydata[2].logoimg}
     />
+*/}
   </div>
-  
 );
