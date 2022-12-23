@@ -8,15 +8,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <MyDocker 
-        status={mydata.status}
-        terminal={mydata.terminal}
-        logoimg={mydata.logoimg}
+        status={mydata[0].status}
+        terminal={mydata[0].terminal}
+        logoimg={mydata[0].logoimg}
     />
     <MyDocker 
-        status="stopped"
-        terminal="redhat terminal" 
-        logoimg="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png"
+        status={mydata[1].status}
+        terminal={mydata[1].terminal}
+        logoimg={mydata[1].logoimg}
     />
+    
     <MyDocker status="running" />
     <MyDocker status="running" />
     <MyDocker status="paused" />
