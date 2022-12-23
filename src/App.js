@@ -9,9 +9,9 @@ const mydata = [{
   logoimg: "https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png"
 },
 {
-  status: "running",
+  status: "paused",
   terminal: "Bash Shell",
-  logoimg: ""
+  logoimg: "https://guide-images.cdn.ifixit.com/igi/TiufGNbhhSwJPAoh.large"
 }
 ]
 

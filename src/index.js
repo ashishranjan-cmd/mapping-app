@@ -17,11 +17,11 @@ root.render(
         terminal={mydata[1].terminal}
         logoimg={mydata[1].logoimg}
     />
-    
-    <MyDocker status="running" />
-    <MyDocker status="running" />
-    <MyDocker status="paused" />
-    <MyDocker status="stopped" />
+    <MyDocker 
+        status={mydata[2].status}
+        terminal={mydata[2].terminal}
+        logoimg={mydata[2].logoimg}
+    />
   </div>
   
 );
