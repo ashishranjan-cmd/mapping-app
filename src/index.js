@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { MyDocker } from './components/card';
+import mydata from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <MyDocker 
-        status="running"
-        terminal="Bash Shell"
-        logoimg="https://pbs.twimg.com/profile_images/1123568405682970629/SpLGmNZr_400x400.png"
+        status={mydata.status}
+        terminal={mydata.terminal}
+        logoimg={mydata.logoimg}
     />
     <MyDocker 
         status="stopped"
